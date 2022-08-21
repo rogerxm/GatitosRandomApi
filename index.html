@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Description" content="Extended Description">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Consumo de APIs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Utilizando el CDN de la biblioteca Axios -->
+    <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="./main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gatos App</h1>
+
+        <span class="error-app" id="error"></span>
+
+        <section class="random-cats-sec" id="random-cats">
+            <h2 class="random-cats-tittle">Gatos Aleatorios</h2>
+        </section>
+        <button id="reload">Recargar</button>
+
+        <section class="favorites-cats-sec" id="favorites-cats">
+            <h2>Gatos Favoritos</h2>
+        </section>
+
+    </div>
+</body>
+
+</html>

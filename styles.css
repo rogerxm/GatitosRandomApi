@@ -1,0 +1,44 @@
+html {
+    background-color: #BAA7B0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+img {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.random-img {
+    width: 400px;
+    height: auto;
+}
+button {
+    margin: 16px 0;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #2D2D34;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    background-color: #C1D7AE;
+    color: black;
+}
+.random-cats-sec,
+.favorites-cats-sec {
+    padding: 25px 25px;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+.error-app {
+    color: red;
+}
